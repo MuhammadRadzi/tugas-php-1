@@ -33,3 +33,41 @@ $a = 2;
 $b = 3;
 $hasilPangkat = $a ** $b;
 echo "\nHasil pangkat $a dan $b: " . $hasilPangkat;
+
+// Operator .= 
+$string = "Hello World";
+
+$string .= "!";
+// $string2 = $string .= "!";
+// echo "\n" . $string;
+// echo "\n" . $string2;
+
+$message = "Tagihan anak anda adalah RP 100.000";
+
+$final = "$message dan harus dibayar sebelum tanggal 10 Juni 2024";
+$message .= " dan harus dibayar sebelum tanggal 10 Juni 2024";
+
+echo "\n" . $final;
+echo "\n" . $message;
+
+// Operator +=
+$angka = 20;
+$angka += 10; // $angka = $angka + 10
+$angka = $angka + 10; 
+echo "\n $angka";
+var_dump($angka);
+
+// Operator -=
+$angka = 20;
+$angka -= 5;
+echo "\n $angka";
+
+// Operator *=
+$angka = 20;
+$angka *= 5;
+echo "\n $angka";
+
+// Operator /=
+$angka = 20;
+$angka /= 5;
+echo "\n $angka";
