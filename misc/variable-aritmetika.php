@@ -71,3 +71,19 @@ echo "\n $angka";
 $angka = 20;
 $angka /= 5;
 echo "\n $angka";
+
+// Operator Kurung
+$angka =  10;
+$float = 2.5;
+$bagi = $angka / $float;
+$kurang = $angka - $float;
+$hasil = 2 + 3 + 5 + 6 - 8 * 2 / 2 - 5;
+
+$contoh = 3 + 2 * 10 - 6 / 2 + 15;
+echo "\n $hasil";
+echo "\n $contoh";
+
+$contohbaru = (3 + 4) * 10 - (6/2) + 15;
+echo "\n $contohbaru";
+
+// Operator Percabangan
