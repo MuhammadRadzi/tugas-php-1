@@ -12,15 +12,11 @@ for ($z = 10; $z >= 1; $z--) {
 //while
 $stok = 5;
 while ($stok > 0) {
-    echo "Buku dipinjam sisa stok = $stok";
-    $stok++;
+    echo "Buku dipinjam sisa stok = $stok\n";
+    $stok--;
 }
 
-
-
-
-
-
+echo "Stok habis!\n"
 
 
 
