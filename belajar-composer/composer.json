@@ -1,0 +1,16 @@
+{
+    "name": "murasa/belajar-composer",
+    "description": "\"Belajar composer\"",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MuhammadRadzi",
+            "email": "nippon.pein14@gmail.com"
+        }
+    ],
+    "require": {}
+}
